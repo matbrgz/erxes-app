@@ -1,0 +1,20 @@
+{
+  "title": "Erxes",
+  "version": "0.1.0",
+  "author": "Matheus Breguêz <matbgrz@gmail.com>",
+  "healthCheckPath": "/",
+  "website": "https://erxes.io",
+  "description": "file://DESCRIPTION.md",
+  "changelog": "file://CHANGELOG.md",
+  "httpPort": 3000,
+  "addons": {
+    "localstorage": {},
+    "mongodb": {},
+    "redis" : {},
+    "sendmail": {
+      "supportsDisplayName": true
+    },
+    "recvmail": {}
+  },
+ "manifestVersion": 2
+}
